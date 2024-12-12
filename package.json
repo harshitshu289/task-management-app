@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "client": "vite",
-    "server": "json-server --watch db.json"
+    "server": "json-server --watch db.json",
+    "build": "vite build"
   },
   "dependencies": {
     "antd": "^5.22.4",
